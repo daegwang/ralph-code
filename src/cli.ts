@@ -19,7 +19,7 @@ async function main() {
   })
 
   if (values.version) {
-    console.log('ralph-code v0.1.0')
+    console.log('ralph-code v0.1.1')
     process.exit(0)
   }
 
@@ -49,7 +49,7 @@ async function main() {
 
 function printHelp(): void {
   console.log(`
-${bold('ralph-code')} v0.1.0
+${bold('ralph-code')} v0.1.1
 
 ${dim('Autonomous AI agent loop powered by coding agents.')}
 ${dim('Config is loaded from .ralph/config.json (created on first run).')}

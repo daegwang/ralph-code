@@ -11,6 +11,12 @@ An autonomous AI agent loop that turns a description into working code. Powered 
 
 > **Warning:** ralph-code runs agents in fully autonomous mode (`--dangerously-skip-permissions` for Claude, `--full-auto` for Codex). Always review generated tasks before executing.
 
+## Install
+
+```bash
+npm install -g ralph-code
+```
+
 ## Requirements
 
 - Node.js 18+
@@ -36,11 +42,11 @@ ralph-code
   ✓ Tasks are ready. Review tasks.md and edit if needed before continuing.
   Start execution? (y/n) y
 
-  [1/10]  ·  4 pending, 0 done
+  [1/4]  ·  4 pending, 0 done
   ▸ Set up project structure
   ✓ Set up project structure
 
-  [2/10]  ·  3 pending, 1 done
+  [2/4]  ·  3 pending, 1 done
   ▸ Build todo list UI
   ...
 ```
@@ -93,7 +99,7 @@ On first run, a `.ralph/` directory is created in your project. Add `.ralph/` to
     "execution": "claude/sonnet"
   },
   "tasks": "tasks.md",
-  "maxIterations": 10,
+  "maxIterations": 100,
   "maxRetries": 3,
   "timeout": 300
 }
