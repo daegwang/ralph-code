@@ -1,0 +1,28 @@
+{
+  "name": "ralph-code",
+  "version": "0.1.0",
+  "description": "Autonomous AI agent loop — describe what to build, it plans and executes with Claude Code or Codex",
+  "type": "module",
+  "bin": {
+    "ralph-code": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "prompts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ai", "claude", "codex", "agent", "automation", "cli", "coding-agent"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
