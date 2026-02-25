@@ -1,5 +1,8 @@
 # ralph-code
 
+[![npm version](https://img.shields.io/npm/v/ralph-code)](https://www.npmjs.com/package/ralph-code)
+[![license](https://img.shields.io/npm/l/ralph-code)](https://github.com/daegwang/ralph-code/blob/main/LICENSE)
+
 An autonomous AI agent loop that turns a description into working code. Powered by [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [Codex](https://github.com/openai/codex). Inspired by [Ralph](https://github.com/snarktank/ralph).
 
 - **Describe → Plan → Execute** — tell it what to build, it generates tasks and works through them
